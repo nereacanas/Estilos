@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel&family=Cookie&family=Dancing+Script&family=Great+Vibes&family=Kaushan+Script&family=Sacramento&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Menú */
+#burger, label {
+    display: none;
+}
+#logo {
+    width: 7.2em;
+    margin-left: 1em;
+    float: left;
+}
+#items {
+    background-color: white;
+    display: block;
+    float: right;
+}
+#items a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    padding: 0.55em 2.5em;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+}
+#items a:hover {
+    color: lightslategrey;
+}
+#items a:active {
+    color: orange;
+}
+
+/* Imagen y eslogan o sección principal de las páginas */
+img#img-principal {
+    width: 100%;
+    height: 33.25em;
+    z-index: -1;
+    position: sticky;
+}
+section #img-principal2 {
+    width: 100%;
+    z-index: -1;
+    position: sticky;
+}
+section > #eslogan {
+    font-size: 2.5em;
+    width: 9.5em;
+    margin-top: -3em;
+    float: right;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+}
+section > #eslogan2 {
+    font-size: 2.5em;
+    width: 5em;
+    margin-top: -1.8em;
+    float: right;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+}
+
+/* Página de productos */
+#articulos {
+    width: 100%;
+    height: 28em;
+}
+#titulo {
+    text-align: center;
+    margin-top: 3.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Corbel Light';
+}
+#enlaces {
+    width: 80%;
+    margin: auto;
+}
+.product {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-top: 5em;
+}
+#enlaces img {
+    width: 16em;
+    height: 18em;
+    margin-bottom: 1.2em;
+    border-radius: 5%;
+    box-shadow: 5px 5px lightgrey;
+}
+
+p {
+    margin-top: 1em;
+}
+
+/* Pie de página */
+#pie {
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 6%;
+}
+footer * .iconos {
+    margin: 1em 0.5em;
+    width: 1.875em;
+    height: 1.875em;
+}
+#bandera {
+    width: 1em;
+    display: inline-block;
+}
+iframe {
+    border-radius: 5%;
+    width: 32%;
+    margin: 7em 16em 6em 16em;
+    float: left;
+}
+
+* .formulario {
+    width: 32%;
+    float: right;
+    margin: -20em 10em;
+}
+
+div.informacion {
+    margin: 6em 10em 3em 9em;
+    text-align: justify;
+    width: 80%;
+}
+
+#entrada {
+    width: 47%;
+}
+
+#entrada, #texto {
+    margin-top: 5.5em;
+}
+
+#entrada_dos {
+    margin-top: 4em;
+    float: left;
+}
+
+#lista {
+    margin-top: 0.7em;
+}
+
+.informacion #imagen {
+    width: 25em;
+    border-radius: 5%;
+    float: right;
+    margin-right: 4em;
+}
+
+.servicio {
+    float: right;
+    margin-right: 3.2em;
+}
+
+.mostrar > .producto-individual {
+    margin: 8.5em 0em 2em 2em;
+    width: 22em;
+    height: 23em;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 5px 5px lightgrey;
+}
+
+.mostrar #letra {
+    text-align: justify;
+    font-family: "Corbel Light";
+    width: 40%;
+    float: right;
+    margin-top: -18em;
+    margin-right: 9em;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.clearboth{clear: both;}
+
+@media screen and (min-width: 699px) and (max-width: 1150px){
+    #items a {
+        padding: 0.55em 1.5em;
+    }
+    section > #eslogan, section > #eslogan2 {
+        color: white;
+    }
+    div.informacion {
+        margin: auto;
+        text-align: justify;
+        width: 75%;
+    }
+    #entrada {
+        margin-top: 3.5em;
+        width: 100%;
+    }
+    #texto {
+        margin-top: 1em;
+        width: 100%;
+    }
+    #entrada_dos {
+        margin-top: 3.5em;
+        float: none;
+    }
+    #lista {
+        margin-top: 0.7em;
+    }
+    #div_img {
+        border-radius: 5%;
+        margin: auto;
+        width: 25em;
+    }
+    .informacion #imagen {
+        border-radius: 5%;
+        float: none;
+        margin-top: 5em;
+    }
+    .servicio {
+        float: none;
+        margin-right: 3.2em;
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    #titulo {
+        margin-top: 3.5em;
+        font-size: 1.2em;
+    }
+    .product {
+        width: 50%;
+    }
+    #enlaces img {
+        width: 12em;
+        height: 14em;
+    }
+    .mostrar {
+        width: 70%;
+        margin: auto;
+        padding-top: 8em;
+    }
+    .mostrar > .producto-individual {
+        margin: auto;
+        width: 19em;
+        height: 21em;
+    }
+    .mostrar #letra {
+        padding-top: 3em;
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    iframe {
+        float: none;
+        border-radius: 0%;
+        width: 100%;
+        margin: auto;
+        padding-top: 4.5em;
+        padding-bottom: 2.5em;
+    }
+    * .formulario {
+        width: 28%;
+        float: none;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 698px){
+    #logo {
+        float: right;
+        margin-left: -1em;
+    }
+    section > #eslogan, section > #eslogan2 {
+        color: white;
+    }
+    div.informacion {
+        margin: auto;
+        text-align: justify;
+        width: 75%;
+    }
+    #entrada {
+        margin-top: 3.5em;
+        width: 100%;
+    }
+    #texto {
+        margin-top: 1em;
+        width: 100%;
+    }
+    #entrada_dos {
+        margin-top: 3.5em;
+        float: none;
+    }
+    #lista {
+        margin-top: 0.7em;
+    }
+    #div_img {
+        border-radius: 5%;
+        margin: auto;
+        width: 25em;
+    }
+    .informacion #imagen {
+        border-radius: 5%;
+        float: none;
+        margin-top: 5em;
+    }
+    .servicio {
+        float: none;
+        margin-right: 3.5em;
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    #titulo {
+        margin-top: 3.5em;
+        font-size: 1.2em;
+    }
+    .product {
+        width: 50%;
+    }
+    #enlaces img {
+        width: 10.5em;
+        height: 12.5em;
+    }
+    .mostrar {
+        width: 70%;
+        margin: auto;
+        padding-top: 8em;
+    }
+    .mostrar > .producto-individual {
+        margin: auto;
+        width: 19em;
+        height: 21em;
+    }
+    .mostrar #letra {
+        padding-top: 3em;
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    iframe {
+        float: none;
+        border-radius: 0%;
+        width: 100%;
+        margin: auto;
+        padding-top: 4.5em;
+        padding-bottom: 2.5em;
+    }
+    * .formulario {
+        width: 59%;
+        float: none;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+
+    #burger, label {
+        display: none;
+        padding: 20px;
+        float: left;
+        cursor: pointer;
+    }
+    #items {
+        background-color: lightgrey;
+        display: block;
+        width: 100%;
+    }
+    #items a:hover {
+        color: white;
+    }
+    a#uno, a#dos, a[title="idioma"] {
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        border-bottom: 1px solid black;
+    }
+    #nav {
+        background-color: white;
+    }
+    label {
+        display: inline-block;
+        background-color: lightgrey;
+        color: white;
+    }
+    #items {
+        display: none;
+    }
+    input:checked ~ #items {
+        display: block;
+    }
+}
